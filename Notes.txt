@@ -1,3 +1,4 @@
 -- Color Codes --
 
 #191919 - Carbon Black - Background
+#6C88C4 - Nav Items

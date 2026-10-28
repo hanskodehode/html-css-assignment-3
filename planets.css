@@ -1,26 +1,89 @@
-
 /* Reset default styles for all elements */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Set smooth scrolling behavior for the entire document */
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Set background color for the body */
 body {
-    background-color: #191919;
+  background-color: #191919;
 }
 
+/* styling for the main navbar */
 .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* styling for the navbar items */
+.nav-bar-items {
+  text-decoration: none;
+  color: #6c88c4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling for main box solar system */
+.solar-system-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+
+  overflow: hidden;
+}
+
+/* styling for the hero section image */
+.solar-system-image {
+  border-radius: 10px;
+}
+
+/* main box for sun section */
+.sun-section {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+/* styling for sun image */
+.sun-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* styling for sun textbox */
+.sun-text-box {
+  width: 50%;
+  height: 100%;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+/* styling for sun heading */
+.sun-heading {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+/* styling for sun paragraph */
+.sun-p {
+  font-weight: 300;
+  font-size: 18px;
+  width: 60ch;
+  text-align: center;
 }
