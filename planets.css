@@ -12,7 +12,7 @@ html {
 
 /* Set background color for the body */
 body {
-  background-color: #191919;
+  background-color: #000000;
 }
 
 /* styling for the main navbar */
@@ -76,14 +76,49 @@ body {
 /* styling for sun heading */
 .sun-heading {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   font-weight: 700;
+  text-align: center;
 }
 
 /* styling for sun paragraph */
-.sun-p {
+.sun-list {
   font-weight: 300;
   font-size: 18px;
   width: 60ch;
   text-align: center;
+  width: 60ch;
+  margin: 0 auto;
+  text-align: left;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.mercury-section {
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex: 2;
+}
+
+.mercury-image {
+  display: flex;
+  flex: 1;
+}
+
+.mercury-text {
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  max-width: 70ch;
+  font-size: 18px;
+}
+
+.mercury-p {
+  margin-top: 10rem;
+  line-height: 1.8;
 }
